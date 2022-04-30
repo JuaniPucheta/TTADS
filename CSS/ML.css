@@ -86,7 +86,7 @@ input {
     height: 100%;
 }
 
-.log-in-container {
+.login-container {
     left: 0;
     width: 50%;
     z-index: 2;
@@ -107,4 +107,41 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
+    color: #ffffff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+}
+
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.overlay-right {
+    right: 0;
+}
+
+.redes-container {
+    margin: 50px 0;
+}
+
+.redes-container a {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
 }
